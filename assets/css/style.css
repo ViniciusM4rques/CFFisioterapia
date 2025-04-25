@@ -1,0 +1,73 @@
+/* Estilo personalizado para o site de fisioterapia */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+}
+
+.services .card {
+    border: none;
+}
+
+/* Opnião dos Paciêntes */
+.testimonials blockquote {
+    border-left: 5px solid #007bff;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Botão do Whats e Animação */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    font-size: 22px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: width 0.4s ease, background-color 0.3s ease;
+    height: 60px;
+    padding: 0 20px;
+    width: auto;
+    max-width: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.whatsapp-float i {
+    font-size: 26px;
+    transition: margin-right 0.4s ease;
+    min-width: 26px;
+}
+
+.whatsapp-text {
+    opacity: 0;
+    margin-left: 10px;
+    transition: opacity 0.3s ease;
+    font-size: 16px;
+    visibility: hidden;
+}
+
+.whatsapp-float:hover {
+    max-width: 220px;
+    background-color: #1ebd5a;
+}
+
+.whatsapp-float:hover .whatsapp-text {
+    opacity: 1;
+    visibility: visible;
+}
+
