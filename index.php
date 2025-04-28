@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- Seção de Apresentação -->
-<header class="text-white text-center py-5" style="background-image: url('banner.png'); background-size: cover; background-position: center;">
+<header class="text-white text-center py-5" style="background-image: url('/assets/img/banner.png'); background-size: cover; background-position: center;">
     <div class="container" style="background-color: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 1rem;">
         <h1 class="display-4">Fisioterapia de Resultados</h1>
         <p class="lead">Melhore sua qualidade de vida com nossos tratamentos especializados.</p>
@@ -56,51 +56,78 @@
   </div>
 </section>
 
+<!-- Diferenciais da Clínica -->
 <section class="testimonials mt-5">
     <div class="container">
         <h2 class="text-center">Diferenciais (tecnologias, abordagens específicas)</h2>
     </div>
 </section>
 
-<!-- Seção de Testemunhos -->
-<section class="testimonials mt-5">
-    <div class="container">
-        <h2 class="text-center">O que nossos pacientes dizem</h2>
-        <h2 class="text-center">(Melhor upar um vídeo no Youtube com a opinião do pessoal)</h2>
-        <br></br>
-
-        <div class="row">
-        
-            <div class="col-md-4 d-flex align-items-center mb-4">
-                <div class="testimonial">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">"A fisioterapia foi essencial para minha recuperação após a cirurgia. Os profissionais são excelentes!"</p>
-                    </blockquote>
-                    <footer class="blockquote-footer">João Silva</footer>
-                </div>
-            </div>
-            
-            <div class="col-md-4 d-flex align-items-center mb-4">
-                <div class="testimonial">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">"O tratamento de fisioterapia respiratória melhorou muito minha qualidade de vida!"</p>
-                    </blockquote>
-                    <footer class="blockquote-footer">Maria Oliveira</footer>
-                </div>
-            </div>
-            
-            <div class="col-md-4 d-flex align-items-center mb-4">
-                <div class="testimonial">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">"Excelente atendimento e os resultados foram além das minhas expectativas."</p>
-                    </blockquote>
-                    <footer class="blockquote-footer">Carlos Souza</footer>
-                </div>
-            </div>
-
+<!-- Seção de Vídeos -->
+<section class="video-section py-5">
+  <div class="container">
+    <h2 class="mb-4 text-center">O que nossos pacientes dizem</h2>
+    
+    <div class="row justify-content-center g-4">
+      <div class="col-md-4">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/TjjgOMWnhfI" title="Vídeo 1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
         </div>
+      </div>
 
+      <div class="col-md-4">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/TjjgOMWnhfI" title="Vídeo 2"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/TjjgOMWnhfI" title="Vídeo 3"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
+    
+    <div class="testimonials mt-5">
+      <div class="row">
+      
+          <div class="col-md-4 d-flex align-items-center mb-4">
+              <div class="testimonial">
+                  <blockquote class="blockquote">
+                      <p class="mb-0">"A fisioterapia foi essencial para minha recuperação após a cirurgia. Os profissionais são excelentes!"</p>
+                  </blockquote>
+                  <footer class="blockquote-footer">João Silva</footer>
+              </div>
+          </div>
+          
+          <div class="col-md-4 d-flex align-items-center mb-4">
+              <div class="testimonial">
+                  <blockquote class="blockquote">
+                      <p class="mb-0">"O tratamento de fisioterapia respiratória melhorou muito minha qualidade de vida!"</p>
+                  </blockquote>
+                  <footer class="blockquote-footer">Maria Oliveira</footer>
+              </div>
+          </div>
+          
+          <div class="col-md-4 d-flex align-items-center mb-4">
+              <div class="testimonial">
+                  <blockquote class="blockquote">
+                      <p class="mb-0">"Excelente atendimento e os resultados foram além das minhas expectativas."</p>
+                  </blockquote>
+                  <footer class="blockquote-footer">Carlos Souza</footer>
+              </div>
+          </div>
+
+      </div>
+    </div>  
+  </div>
+
 </section>
 
 <!-- Seção de Localização -->
