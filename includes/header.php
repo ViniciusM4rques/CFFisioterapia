@@ -47,7 +47,7 @@
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="sobre.php">Sobre</a>
+                        <a class="nav-link" href="includes/sobre.php">Sobre</a>
                     </li>
                     
                     <li class="nav-item">
